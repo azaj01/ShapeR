@@ -389,6 +389,12 @@ input {
     justify-content: right;
 }
 
+@media (max-width: 1023px) {
+    .hero-media {
+        justify-content: center;
+    }
+}
+
 .video-container {
     position: relative;
     border-radius: 1.5rem;
